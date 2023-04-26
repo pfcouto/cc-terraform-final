@@ -2,10 +2,6 @@ output "vercel-app-url" {
   value = vercel_deployment.frontend.url
 }
 
-output "vercel-app-domain" {
-  value = vercel_project.frontend
-}
-
 output "db_instance_endpoint" {
   description = "The connection endpoint"
   value       = aws_db_instance.cc-terraform-db.endpoint
