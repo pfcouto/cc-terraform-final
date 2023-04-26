@@ -1,0 +1,15 @@
+variables.tf
+vercekey.txt
+coisas-terraform.txt
+
+frontend/DS_Store
+frontend/node_modules
+frontend/build
+frontend/.svelte-kit
+frontend/.env
+frontend/vite.config.js.timestamp-*
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl

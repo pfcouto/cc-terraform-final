@@ -1,0 +1,41 @@
+variable "vercel_api_token" {
+  type        = string
+  description = "Vercel API token"
+  default     = "Vercel API token"
+}
+
+variable "aws_access_key" {
+  type        = string
+  description = "AWS Access Key"
+  default     = "AWS Access Key"
+}
+
+variable "aws_secret_key" {
+  type        = string
+  description = "AWS Secret Key"
+  default     = "AWS Secret Key"
+}
+
+variable "do_token" {
+  type        = string
+  description = "Digital Ocean Token"
+  default     = "Digital Ocean Token"
+}
+
+variable "db_name" {
+  type        = string
+  description = "Database Name"
+  default     = "Database Name"
+}
+
+variable "db_username" {
+  type        = string
+  description = "Database Connection Username"
+  default     = "Database Connection Username"
+}
+
+variable "db_password" {
+  type        = string
+  description = "Database Connection Password"
+  default     = "Database Connection Password"
+}
